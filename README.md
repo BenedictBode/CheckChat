@@ -11,7 +11,7 @@
 **App is published to TestFlight**  
 *Link to TestFlight App*  
 
-**The node.js server is live at:** [heroku](https://hidden-bayou-91236-aef7370094a2.herokuapp.com)  
+**The node.js server is live at:** [heroku](https://hidden-bayou-91236-aef7370094a2.herokuapp.com/documentation)  
 Including OpenAPI documentation visualized by swagger-ui.
 
 ### Build locally:
