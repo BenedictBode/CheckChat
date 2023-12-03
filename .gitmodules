@@ -1,0 +1,3 @@
+[submodule "CheckChatServer"]
+	path = CheckChatServer
+	url = git@github.com:BenedictBode/CheckChatServer.git
