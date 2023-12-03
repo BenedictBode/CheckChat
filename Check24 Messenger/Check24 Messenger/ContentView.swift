@@ -13,12 +13,24 @@ struct ContentView: View {
         
     var body: some View {
         NavigationView {
-            List(dataModel.conversations) { conversation in
-                NavigationLink(destination: ConversationDetailView(conversation: conversation)) {
-                    Text(dataModel.viewType == .customer ? conversation.service_provider_name : conversation.customer_name)
-                }
-            }
-            .navigationTitle("Conversations")
+            ConversationOverview()
+                .navigationBarTitle("Conversations")
+                .navigationBarItems(trailing:
+                    HStack {
+                        Button {
+                            dataModel.reset()
+                        } label: {
+                            Image(systemName: "arrow.counterclockwise.icloud")
+                        }
+                        Button(dataModel.viewType.rawValue) {
+                            if dataModel.viewType == .customer {
+                                dataModel.viewType = .service_provider
+                            } else {
+                                dataModel.viewType = .customer
+                            }
+                        }
+                    }
+                )
         }
     }
 }

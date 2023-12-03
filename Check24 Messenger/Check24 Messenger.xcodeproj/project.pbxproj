@@ -14,6 +14,10 @@
 		B729FDF22B18EF9200991CE5 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B729FDF12B18EF9200991CE5 /* DataModel.swift */; };
 		B729FDF42B18F73A00991CE5 /* ConversationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B729FDF32B18F73A00991CE5 /* ConversationDetailView.swift */; };
 		B729FDF62B18F75000991CE5 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B729FDF52B18F75000991CE5 /* ChatBubble.swift */; };
+		B7A432402B1CA57500076512 /* ReviewedBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4323F2B1CA57500076512 /* ReviewedBubble.swift */; };
+		B7B1F3152B1A17F800CA5B01 /* ConversationOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B1F3142B1A17F800CA5B01 /* ConversationOverview.swift */; };
+		B7B1F3192B1A363200CA5B01 /* SystemBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B1F3182B1A363200CA5B01 /* SystemBubble.swift */; };
+		B7B1F31D2B1AA86900CA5B01 /* ReviewBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B1F31C2B1AA86900CA5B01 /* ReviewBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		B729FDF12B18EF9200991CE5 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		B729FDF32B18F73A00991CE5 /* ConversationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationDetailView.swift; sourceTree = "<group>"; };
 		B729FDF52B18F75000991CE5 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		B7A4323F2B1CA57500076512 /* ReviewedBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewedBubble.swift; sourceTree = "<group>"; };
+		B7B1F3142B1A17F800CA5B01 /* ConversationOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationOverview.swift; sourceTree = "<group>"; };
+		B7B1F3182B1A363200CA5B01 /* SystemBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemBubble.swift; sourceTree = "<group>"; };
+		B7B1F31C2B1AA86900CA5B01 /* ReviewBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,9 @@
 			children = (
 				B729FDE22B18EF5700991CE5 /* Check24_MessengerApp.swift */,
 				B729FDE42B18EF5700991CE5 /* ContentView.swift */,
+				B7B1F3142B1A17F800CA5B01 /* ConversationOverview.swift */,
 				B729FDF32B18F73A00991CE5 /* ConversationDetailView.swift */,
-				B729FDF52B18F75000991CE5 /* ChatBubble.swift */,
+				B7B1F31E2B1AA8BA00CA5B01 /* MessageViews */,
 				B729FDF12B18EF9200991CE5 /* DataModel.swift */,
 				B729FDE62B18EF5700991CE5 /* Assets.xcassets */,
 				B729FDE82B18EF5700991CE5 /* Check24_Messenger.entitlements */,
@@ -76,6 +85,17 @@
 				B729FDEA2B18EF5700991CE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7B1F31E2B1AA8BA00CA5B01 /* MessageViews */ = {
+			isa = PBXGroup;
+			children = (
+				B7B1F31C2B1AA86900CA5B01 /* ReviewBubble.swift */,
+				B729FDF52B18F75000991CE5 /* ChatBubble.swift */,
+				B7B1F3182B1A363200CA5B01 /* SystemBubble.swift */,
+				B7A4323F2B1CA57500076512 /* ReviewedBubble.swift */,
+			);
+			path = MessageViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +170,13 @@
 			files = (
 				B729FDF42B18F73A00991CE5 /* ConversationDetailView.swift in Sources */,
 				B729FDF62B18F75000991CE5 /* ChatBubble.swift in Sources */,
+				B7A432402B1CA57500076512 /* ReviewedBubble.swift in Sources */,
 				B729FDE52B18EF5700991CE5 /* ContentView.swift in Sources */,
+				B7B1F31D2B1AA86900CA5B01 /* ReviewBubble.swift in Sources */,
+				B7B1F3192B1A363200CA5B01 /* SystemBubble.swift in Sources */,
 				B729FDE32B18EF5700991CE5 /* Check24_MessengerApp.swift in Sources */,
 				B729FDF22B18EF9200991CE5 /* DataModel.swift in Sources */,
+				B7B1F3152B1A17F800CA5B01 /* ConversationOverview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +310,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckChat;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -324,6 +349,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckChat;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
