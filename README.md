@@ -21,7 +21,10 @@ To build and run the project locally, you need npm and Xcode.
 1. Start the server by running `npm start` in the `/CheckChatServer` directory.
 2. Open the `/Check24 Messenger` directory with Xcode. & run it on the simulator.
 
+### Next steps:
 
+1. Database storage (e.g. Postgres)
+2. Web sockets instead of Polling
 
 
 
