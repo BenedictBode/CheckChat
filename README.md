@@ -3,8 +3,7 @@
 
 ### Watch the demo:
 
-![Demo Image](https://github.com/BenedictBode/CheckChat/assets/36698396/786673e3-a508-4c52-a1f2-e968c00d97d8)
-https://youtu.be/Nd3hpiUj3PU
+![Demo Image](https://youtu.be/Nd3hpiUj3PU)
 
 ### Try it out!
 
