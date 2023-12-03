@@ -3,7 +3,8 @@
 
 ### Watch the demo:
 
-![Demo Image](https://youtu.be/Nd3hpiUj3PU)
+[![Demo Video](https://img.youtube.com/vi/Nd3hpiUj3PU/0.jpg)](https://www.youtube.com/watch?v=Nd3hpiUj3PU)
+
 
 ### Try it out!
 
