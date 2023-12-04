@@ -8,9 +8,9 @@
 
 ### Try it out:
 
-**iOS App is live at:**[TestFlight](https://testflight.apple.com/join/2QIMFHEk)
+**iOS App is live @** [TestFlight](https://testflight.apple.com/join/2QIMFHEk)
 
-**The node.js server is live at:** [heroku](https://hidden-bayou-91236-aef7370094a2.herokuapp.com/documentation)  
+**The node.js server is live @** [Heroku](https://hidden-bayou-91236-aef7370094a2.herokuapp.com/documentation)  
 Including OpenAPI documentation visualized with swagger-ui.
 
 ### Build locally:
