@@ -8,7 +8,7 @@
 
 ### Try it out:
 
-**App is published to TestFlight**  
+**iOS App is live at:**[TestFlight](https://testflight.apple.com/join/2QIMFHEk)
 
 **The node.js server is live at:** [heroku](https://hidden-bayou-91236-aef7370094a2.herokuapp.com/documentation)  
 Including OpenAPI documentation visualized with swagger-ui.
